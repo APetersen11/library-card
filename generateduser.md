@@ -1,10 +1,10 @@
-# a
+# Library Card
 
 
-  ![badge](https://img.shields.io/badge/license-Apache%20License%202.0-blueviolet.png)
+  ![badge](https://img.shields.io/badge/license-MIT%20License-blueviolet.png)
   
 
-b
+This project helps users to generate a professional Read-Me within their terminal.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,28 +16,28 @@ b
 
 ## Installation
 
-c
+You must download node and the npm package inquirer.
 
 ## Usage
 
-d
+Once you download the above packages you can open the files. Enter node index into your terminal and respond to the prompts. A Read Me will be generated in the file "GenerateUserReadMe'.
 
 ## Contributing
 
-e
+You may fork and contribute.
 
 ## Tests
 
-f
+The user may run tests in their own software and terminal.
 
 ## License
 
-This project is licenses with Apache License 2.0
+This project is licensed with MIT License
 
 ## Questions
 
-If you have questions, please contact me on GitHub here: [g](https://github.com/g)
-or by email here: [h](mailto:h)
+If you have questions, please contact me on GitHub here: [APetersen11](https://github.com/APetersen11)
+or by email here: [aptrsn11@gmail.com](mailto:aptrsn11@gmail.com)
 
 
 

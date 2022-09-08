@@ -68,12 +68,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
-    //do stuff with the answers
-    console.log(answers);
-
-    //after all answers are collected, write to file!
-    //TODO - build a string that uses our answers to generate some markdown, and write that to
-    //our file as the 'data' parameter. (replace the test values below)
+  
+    //string that uses our answers to generate some markdown, and write that to generate markdown
     writeToFile("generateduser.md", generateMarkdown({...answers}));
   });
 }
