@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown")
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -37,16 +38,11 @@ const questions = [
   {
     type: 'list',
     name: 'license',
-    message: 'Choose a license for your project. * indicates the most common license choices.',
+    message: 'Choose a license for your project.',
     choices: [
-        "*Apache License 2.0",
-        "Boost Software License 1.0",
-        'GNU AGPLv3',
-        "*GNU GPLv3",
-        'GNU LGPLv3',
-        "ISC License",
-        '*MIT License',
-        'Mozilla Public License 2.0',
+        "Apache License 2.0",
+        "GNU GPLv3",
+        'MIT License',
         "The Unlicense",
     ],
   },
@@ -78,7 +74,7 @@ function init() {
     //after all answers are collected, write to file!
     //TODO - build a string that uses our answers to generate some markdown, and write that to
     //our file as the 'data' parameter. (replace the test values below)
-    writeToFile("test.txt", "here is some data");
+    writeToFile("generateduser.md", generateMarkdown({...answers}));
   });
 }
 
