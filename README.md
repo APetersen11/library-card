@@ -20,7 +20,7 @@ You must download node and the npm package inquirer.
 
 ## Usage
 
-Once you download the above packages you can open the files. Enter node index into your terminal and respond to the prompts. A Read Me will be generated in the file "GenerateUserReadMe'. Here is a link to the project walk-through: [walkthrough-link](https://drive.google.com/file/d/1JDfpzy0uW0bmvqbv9G3pzsIwfZd5iFU3/view)
+Once you download the above packages you can open the files. Enter node index into your terminal and respond to the prompts. A Read Me will be generated in the file "GenerateUserReadMe'. [Here is a link to the project walk-through.](https://drive.google.com/file/d/1JDfpzy0uW0bmvqbv9G3pzsIwfZd5iFU3/view)
 
 ![screenshot1](./assets/Terminal-SS.png)
 ![screenshot2](./assets/SS-RM1.png)
